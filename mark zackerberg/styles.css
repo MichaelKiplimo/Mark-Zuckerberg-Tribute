@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: white;
+}
+
+.header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    border-bottom: solid 2px #555;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    padding: 10px;
+}
+
+.logo span {
+    color: white;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+a:hover {
+    color: #555;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: auto;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.home-text {
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+  max-width: 600px;
+}
+
+.home-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home-text main {
+    color: #555;
+}
+
+.home-text h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.image img {
+    max-width: 400px;
+    height: auto;
+    align-items: center;
+    margin: 40px;
+    border: solid 2px wheat;
+}
+
+.Biography {
+    align-items: center;
+    text-align: center;
+   max-width: 1000px;
+    margin: auto;
+    letter-spacing: 1.5px;
+    color: white;
+    margin-top: 100px;
+}
+
+.bio-content {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.bio-list {
+    background-color: #555;
+    text-align: left;
+    border-right: solid 2px white;
+    border-right-style: dashed;
+    padding-right: 10px;
+}
+
+.bio-text {
+    width: 55vw;
+    margin-left: 20px;
+    justify-content: space-evenly;
+}
+
+.Biography a {
+    text-decoration: none;
+    color: white;
+    background-color: #555;
+    border-radius: 4px;
+    padding: 10px;
+    transition: .3s ease;
+    margin-top: 20px;
+
+}
+
+.Biography a:hover {
+    background-color: white;
+    color: #000;
+}
+
+
+.achv {
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    max-height: auto;
+    margin-top: 100px;
+    max-width: auto;
+}
+
+.achiements-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: auto;
+}
+
+.achv-content {
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 1.5px;
+    border: solid 2px #555;
+    max-width: 280px;
+    height: auto;
+}
+
+.achv-content:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.achv-content img {
+    width: 100%;
+    height: 250px;
+}
+
+.achv-content a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: .3s ease;
+}
+
+.achv-content a:hover {
+    background-color: white;
+    color: #000;
+}
+
+.legacy {
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    max-height: auto;
+    padding: 10px;
+    letter-spacing: 1.5px;
+}
+
+.quotes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.quote-txt {
+    width: 300px;
+    height: auto;
+    border: solid 2px #555;
+    padding: 10px;
+}
+
+.quote-txt:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.quote-txt h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.quote-txt p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    border-top: solid 2px #555;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.footer-content a:hover {
+    color: #555;
+}
+
+
